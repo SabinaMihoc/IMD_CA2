@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
-<body class="bg-light">
+<body>
 <div class="container">
   <div class="row">
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
@@ -27,7 +27,11 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#education">Education</a>
-            </li>    
+            </li>   
+            <li>
+            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#contactModal">Contact</a>
+            </li>
+
           </ul>
         </div>
       </div>
@@ -59,6 +63,11 @@
           <a href="#" style="text-decoration: none;" target="_blank"><i class="fa fa-facebook-official text-white" data-bs-toggle="tooltip" title="Facebook"></i>  </a>
           <a href="#" style="text-decoration: none;" target="_blank"><i class="fa fa-instagram text-white" data-bs-toggle="tooltip" title="Instagram"></i>  </a>
           <a href="#" style="text-decoration: none;" target="_blank"><i class="fa fa-linkedin text-white" data-bs-toggle="tooltip" title="Linkedin"></i>  </a>
+          
+        </span>
+        <br>
+        <span>
+          <a href="SabinaMihocCV.pdf" download="SabinaMihocCV" style="text-decoration: none;" target="_blank" class="text-white"> <i class="fa fa-download"></i> Download CV</a>
         </span>
       </div>
       <div class="col-sm-4">
@@ -96,7 +105,12 @@
             <br>
      
             <div class="row">
-              <div class="col-sm-6">
+
+              <div class="col-sm-3">
+                <img src="SM.jpg" width="100%">
+              </div>
+
+              <div class="col-sm-9">
                 <br>
                 <div class="container p-3">
 
@@ -108,124 +122,415 @@
                   </div>
                 </div>
                      
-              <div class="col-sm-6">
-                <p>Hobbies and Interests</p>
-              <!-- Carousel https://www.w3schools.com/bootstrap5/bootstrap_carousel.php -->
-              <div id="demo" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-                  <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-                  <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="nl.jpg" width="400" height="400" alt="Visiting" class="d-block" style="width:100%">
-                    <div class="carousel-caption">
-                      <p>Visiting</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="travel.jpg" width="400" height="400" alt="Hiking" class="d-block" style="width:100%">
-                    <div class="carousel-caption">
-                      <p>Hiking</p>
-                    </div> 
-                  </div>
-                  <div class="carousel-item">
-                    <img src="Isa.jpg" width="400" height="400" alt="MyDaughter" class="d-block" style="width:100%">
-                    <div class="carousel-caption">
-                      <p>Spend time with my daughter</p>
-                    </div>  
-                  </div>
-                </div>
-                
-                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon"></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-                  <span class="carousel-control-next-icon"></span>
-                </button>
-            </div>
-              </div>
+
             </div>
           </div>
       </div>
- 
-  <div class="row" id="work">
-      <!-- https://www.w3schools.com/bootstrap5/bootstrap_collapse.php -->
-      <div class="container">
-        <br><br><br>
-        <h2 class="text-success text-center"><i class="fa fa-suitcase"></i>  Work Experience</h2>
-        <div id="accordion">
-          <div class="card">
-            <div class="card-header">
-              <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
-                Software Engineer / Ocuco - Current
-              </a>
-            </div>
-            <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
-              <div class="card-body">
-                <h6 class="text-success"><i class="fa fa-calendar"></i>Jul 2022 - Current</h6>
-                <p>Ocuco job description</p>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-header">
-              <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
-                Software Engineer Intern / Ocuco
-            </a>
-            </div>
-            <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
-              <div class="card-body">
-                <h6 class="text-success"><i class="fa fa-calendar"></i>Jan 2022 - Jul 2022</h6>
-                <p>Ocuco internship job description</p>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-header">
-              <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
-                Volunteer at project
-              </a>
-            </div>
-            <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
-              <div class="card-body">
-                <h6 class="text-success"><i class="fa fa-calendar"></i>Jan 2022 - Jul 2022</h6>
-                <p> Volunteer at project</p> 
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-</div>
+
 <div class="row" id="education">
       <div class="container">
         <br><br><br>
-        <h2 class="text-success text-center"><i class="fa fa-book"></i>Education</h2>
+        <h2 class="text-success text-center"><i class="fa fa-book"></i>  Education</h2>
         <div class="container">
-          <h5><b>TU Dublin</b></h5>
-          <h6 class="text-success"><i class="fa fa-calendar"></i>2022</h6>
-          <p>College Education</p>
+          <h6><b>TU Dublin – Tallaght Campus</b></h6>
+          <h6 class="text-success"><i class="fa fa-calendar"></i>  September 2019 – Present</h6>
+          
+          <div class="row">
+            <div class="col-sm-1">
+              <a href="https://www.tudublin.ie/explore/our-campuses/tallaght/" target="_blank"> 
+                <img src="College.PNG" width="100%">
+              </a>
+            </div>
+            
+            <div class="col-sm-11">
+              <p>Fourth Year Student: Computer Science – Software Development</p>
+            </div>
+          </div>
+
+
           <hr>
         </div>
         <div class="container">
-            <h5><b>TU Dublin</b></h5>
-            <h6 class="text-success"><i class="fa fa-calendar"></i>2022</h6>
-            <p>College Education</p>
+            <h6><b>Waterford Institute of Technology, Ireland</b></h6>
+            <h6 class="text-success"><i class="fa fa-calendar"></i>  September 2014 – May 2016</h6>
+          
+            <div class="row">
+              <div class="col-sm-1">
+                <a href="https://www.wit.ie/" target="_blank"> 
+                  <img src="WIT.PNG" width="100%">
+                </a>
+              </div>
+              
+              <div class="col-sm-11">
+                <p>QQI - Level 6 Professional Cookery</p>
+              </div>
+            </div>
             <hr>
           </div>
           <div class="container">
-            <h5><b>TU Dublin</b></h5>
-            <h6 class="text-success"><i class="fa fa-calendar"></i>2022</h6>
-            <p>College Education</p>
+            <h6><b>Technical School “Danubiana”, Romania</b></h6>
+            <h6 class="text-success"><i class="fa fa-calendar"></i>  September 2009 – July 2013</h6>
+           
+            <div class="row">
+              <div class="col-sm-1">
+                <a href="http://www.ctdanubiana.ro/contact.php" target="_blank"> 
+                  <img src="Danubiana.PNG" width="100%">
+                </a>
+              </div>
+              
+              <div class="col-sm-11">
+                <p>Baccalaureate Diploma (equivalent of Leaving Certificate)</p>
+              </div>
+            </div>
+            <hr>
+          </div>
+          <div class="container">
+            <h6><b>Google Analytics Academy</b></h6>
+            <h6 class="text-success"><i class="fa fa-calendar"></i>  April 2021- Expires: April 2024</h6>
+           
+            <div class="row">
+              <div class="col-sm-1">
+                <a href="https://analytics.google.com/analytics/academy/course/6" target="_blank"> 
+                  <img src="GA.PNG" width="100%">
+                </a>
+              </div>
+              
+              <div class="col-sm-11">
+                <p>Certificate of Completion: Google Analytics for Beginners</p>
+                <span>
+                  <a class="text-success" href="GoogleAnalyticsSabinaMihoc.pdf" download="SabinaMihocCV" style="text-decoration: none;" target="_blank"> <i class="fa fa-download"></i> Download Cert</a>
+                </span>
+              </div>
+            </div>
             <hr>
           </div>
       </div>
       </div>
 
+      <div class="row" id="grades">
+        <!-- https://www.w3schools.com/bootstrap5/bootstrap_collapse.php -->
+        <div class="container">
+          <br><br><br>
+          <h2 class="text-success text-center"><i class="fa fa-book"></i>  College Results</h2>
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header">
+                <a class="btn" data-bs-toggle="collapse" href="#collapseEduOne">
+                  Year 4 - Current
+                </a>
+              </div>
+              <div id="collapseEduOne" class="collapse show" data-bs-parent="#accordion">
+                <div class="card-body">
+                  <table class="table">
+                    <tr>
+                    <th>Module</th>
+                    <th>CA Results</th>
+                  </tr>
+                  <tbody>
+                    <tr>
+                      <td>Interactive Media Design & Visualisation</td>
+                      <td>A</td>
+                    </tr>
+                    <tr>
+                      <td>Enterprise Performance Architecture</td>
+                      <td>A</td>
+                    </tr>
+                    <tr>
+                      <td>Enterprise Applications Development 1</td>
+                      <td>B, A</td>
+                    </tr>
+                    <tr>
+                      <td>DevOps - Continuous Integration and Deployment</td>
+                      <td>A, A</td>
+                    </tr>
+                    <tr>
+                      <td>Project</td>
+                      <td>N/A</td>
+                    </tr>
+                    <tr>
+                      <td>Information Management</td>
+                      <td>-</td>
+                    </tr>
+                  </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseEduTwo">
+                  Year 3 - GPA 3.67
+              </a>
+              </div>
+              <div id="collapseEduTwo" class="collapse" data-bs-parent="#accordion">
+                <div class="card-body">
+                  <table class="table">
+                    <tr>
+                    <th>Module</th>
+                    <th>Results</th>
+                  </tr>
+                  <tbody>
+                    <tr>
+                      <td>EXPERIENTAL LEARNING</td>
+                      <td>PS</td>
+                    </tr>
+                    <tr>
+                      <td>Server-side Web Development</td>
+                      <td>B+</td>
+                    </tr>
+                    <tr>
+                      <td>Operating Systems</td>
+                      <td>B+</td>
+                    </tr>
+                    <tr>
+                      <td>Cloud Service & Distrib Comp</td>
+                      <td>B</td>
+                    </tr>
+                    <tr>
+                      <td>Big Data Technologies</td>
+                      <td>A</td>
+                    </tr>
+                    <tr>
+                      <td>Data Structures & Algorithms</td>
+                      <td>A</td>
+                    </tr>
+                    <tr>
+                      <td>Data Analysis</td>
+                      <td>A</td>
+                    </tr>
+                  </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseEduThree">
+                  Year 2 - GPA 3.79
+                </a>
+              </div>
+              <div id="collapseEduThree" class="collapse" data-bs-parent="#accordion">
+                <div class="card-body">
+                  <table class="table">
+                    <tr>
+                    <th>Module</th>
+                    <th>Results</th>
+                  </tr>
+                  <tbody>
+                    <tr>
+                      <td>Software Development 4</td>
+                      <td>A</td>
+                    </tr>
+                    <tr>
+                      <td>Project</td>
+                      <td>A</td>
+                    </tr>
+                    <tr>
+                      <td>Routing & Switching Ess</td>
+                      <td>A</td>
+                    </tr>
+                    <tr>
+                      <td>Management Science</td>
+                      <td>A</td>
+                    </tr>
+                    <tr>
+                      <td>Database Admin & Analysis</td>
+                      <td>B+</td>
+                    </tr>
+                    <tr>
+                      <td>Information Security</td>
+                      <td>B+</td>
+                    </tr>
+                    <tr>
+                      <td>Software Development 3</td>
+                      <td>A</td>
+                    </tr>
+                    <tr>
+                      <td>Software Qual Ass & Testing</td>
+                      <td>A</td>
+                    </tr>
+                    <tr>
+                      <td>Network Fundementals</td>
+                      <td>B+</td>
+                    </tr>
+                    <tr>
+                      <td>Adv Database Technologies</td>
+                      <td>B+</td>
+                    </tr>
+                    <tr>
+                      <td>Discrete Mathematics 2</td>
+                      <td>A</td>
+                    </tr>
+                    <tr>
+                      <td>Client side Web Development</td>
+                      <td>B+</td>
+                    </tr>
+                  </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseEduFour">
+                  Year 1 - GPA 3.88
+                </a>
+              </div>
+              <div id="collapseEduFour" class="collapse" data-bs-parent="#accordion">
+                <div class="card-body">
+                  <table class="table">
+                    <tr>
+                    <th>Module</th>
+                    <th>Results</th>
+                  </tr>
+                  <tbody>
+                    <tr>
+                      <td>Software Development 2</td>
+                      <td>A</td>
+                    </tr>
+                    <tr>
+                      <td>Systems Analysis</td>
+                      <td>A</td>
+                    </tr>
+                    <tr>
+                      <td>Social Media Communications	</td>
+                      <td>A</td>
+                    </tr>
+                    <tr>
+                      <td>Statistics</td>
+                      <td>A</td>
+                    </tr>
+                    <tr>
+                      <td>Database Fundamentals</td>
+                      <td>A</td>
+                    </tr>
+                    <tr>
+                      <td>Operating Syst Fundamentals</td>
+                      <td>A</td>
+                    </tr>
+                    <tr>
+                      <td>Software Development 1</td>
+                      <td>B</td>
+                    </tr>
+                    <tr>
+                      <td>Computer Architecture</td>
+                      <td>A</td>
+                    </tr>
+                    <tr>
+                      <td>Visual Design & User Exp</td>
+                      <td>B+</td>
+                    </tr>
+                    <tr>
+                      <td> Business & Information Sys</td>
+                      <td>A</td>
+                    </tr>
+                    <tr>
+                      <td>Discrete Mathematics 1</td>
+                      <td>A</td>
+                    </tr>
+                    <tr>
+                      <td>Critical Skills Development</td>
+                      <td>A</td>
+                    </tr>
+                  </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+       
+  <div class="row" id="work">
+    <!-- https://www.w3schools.com/bootstrap5/bootstrap_collapse.php -->
+    <div class="container">
+      <br><br><br>
+      <h2 class="text-success text-center"><i class="fa fa-suitcase"></i>  Work Experience</h2>
+      <div id="accordion">
+        <div class="card">
+          <div class="card-header">
+            <a class="btn" data-bs-toggle="collapse" href="#collapseWorkOne">
+              Software Engineer / Ocuco - Current
+            </a>
+          </div>
+          <div id="collapseWorkOne" class="collapse show" data-bs-parent="#accordion">
+            <div class="card-body">
+              <h6 class="text-success"><i class="fa fa-calendar"></i>Jul 2022 - Current</h6>
+              <div class="row">
+                <div class="col-sm-1">
+                  <a href="https://www.ocuco.com/" target="_blank"> 
+                    <img src="Ocuco.PNG" width="100%">
+                  </a>
+                </div>
+                
+                <div class="col-sm-11">
+                  <p>Ocuco job description</p>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseWorkTwo">
+              Software Engineer Intern / Ocuco
+          </a>
+          </div>
+          <div id="collapseWorkTwo" class="collapse" data-bs-parent="#accordion">
+            <div class="card-body">
+              <h6 class="text-success"><i class="fa fa-calendar"></i>Jan 2022 - Jul 2022</h6>
+              <div class="row">
+                <div class="col-sm-1">
+                  <a href="https://www.ocuco.com/" target="_blank"> 
+                    <img src="Ocuco.PNG" width="100%">
+                  </a>
+                 
+                </div>
+                <div class="col-sm-11">
+                  <p>Ocuco internship job description </p>
+                </div>
+              </div>
+
+             
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseWorkThree">
+              Volunteer at CSinc Summer Research projects
+            </a>
+          </div>
+          <div id="collapseWorkThree" class="collapse" data-bs-parent="#accordion">
+            <div class="card-body">
+              <h6 class="text-success"><i class="fa fa-calendar"></i>  Jun 2021 - Aug 2021</h6>
+              <div class="row">
+                <div class="col-sm-1">
+                  <a href="http://csinc.ie/" target="_blank"> 
+                    <img src="CSinc.PNG" width="100%">
+                  </a>
+                </div>
+                <div class="col-sm-11">
+                  <p>Working as part of a 4 students team and a TU Dublin Lecturer, to Develop the CSinc Online Booking System. 
+                    The system will be used to allow the Secondary school teachers to book Computer Science classes for their Leaving Cert students.</p>
+                  <p>Tools used: ASP.net MVC 5, C#, Azure Devops</p> 
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
       <div class="row">
       <div class="container">
-        <h2><i class="fa fa-book text-success"></i>Skills</h2>
+        <br><br><br>
+        <h2 class="text-success text-center"><i class="fa fa-book"></i>  Technical Skills</h2>
       <div class="container">
         <p>C#</p>
         <div class="progress">
@@ -258,7 +563,8 @@
 
       <div class="row">
       <div class="container">
-        <h2><i class="fa fa-globe text-success"></i>Languages</h2>
+        <br><br><br>
+        <h2 class="text-success text-center"><i class="fa fa-globe"></i>  Languages</h2>
         <div class="container">
           <p>English</p>
           <div class="progress">
@@ -276,8 +582,60 @@
           </div>
           </div>
   </div>
+
+
+  <div class="row">
+    <div class="container">
+
+      <br><br><br>
+        <h2 class="text-success text-center">Hobbies and Interests</h2>
+       
+    
+  <!-- Carousel https://www.w3schools.com/bootstrap5/bootstrap_carousel.php -->
+  <div id="demo" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="nl.jpg" width="400" height="400" alt="Visiting" class="d-block" style="width:100%">
+        <div class="carousel-caption">
+          <p>Visiting</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="travel.jpg" width="400" height="400" alt="Hiking" class="d-block" style="width:100%">
+        <div class="carousel-caption">
+          <p>Hiking</p>
+        </div> 
+      </div>
+      <div class="carousel-item">
+        <img src="Isa.jpg" width="400" height="400" alt="MyDaughter" class="d-block" style="width:100%">
+        <div class="carousel-caption">
+          <p>Spend time with my daughter</p>
+        </div>  
+      </div>
+    </div>
+   
+    
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
 </div>
 
+</div>
+</div>
+
+
+
+
+</div>
+<br><br><br>
 <footer class="container bg-light text-center">
   <div class="row">
   <div class="col-sm-6">
@@ -287,9 +645,13 @@
   <a href="#" target="_blank"><i class="fa fa-linkedin" data-bs-toggle="tooltip" title="Linkedin"></i></a>
 
   <div class="container"> 
-    <a class="text-success" style="text-decoration: none;" data-bs-toggle="modal" data-bs-target="#contactModal">
+    <a class="text-success" href="#" style="text-decoration: none;" data-bs-toggle="modal" data-bs-target="#contactModal">
       Contact Form
     </a>
+    <br>
+    <span>
+      <a class="text-success" href="SabinaMihocCV.pdf" download="SabinaMihocCV" style="text-decoration: none;" target="_blank"> <i class="fa fa-download"></i> Download CV</a>
+    </span>
 </div>  
   </div>
  <!-- https://www.w3schools.com/bootstrap5/bootstrap_modal.php -->
@@ -325,7 +687,7 @@
 </div>
   <div class="col-sm-6">
   <h3>My location</h3>
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38221.96580408626!2d-6.700339443896005!3d53.220127896523394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4867789670a91b9f%3A0xa00c7a9973172b0!2sNaas%2C%20Co.%20Kildare%2C%20Ireland!5e0!3m2!1sen!2suk!4v1670436341212!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38221.96580408626!2d-6.700339443896005!3d53.220127896523394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4867789670a91b9f%3A0xa00c7a9973172b0!2sNaas%2C%20Co.%20Kildare%2C%20Ireland!5e0!3m2!1sen!2suk!4v1670436341212!5m2!1sen!2suk" width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
   </iframe>
   </div>
 
