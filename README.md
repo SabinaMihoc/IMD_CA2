@@ -1,6 +1,9 @@
 IMD CA2 Documentation
+
 Sabina Mihoc x00167137
+
 About the project
+
 This project is a digital version of my CV and all the details included are accurate.
 
 This project was create using HTML 5, Bootstrap 5, Css and JavaScript.
